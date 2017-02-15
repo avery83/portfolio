@@ -1,0 +1,195 @@
+#nav {
+    height:80px;
+    background-color: steelblue;
+}
+
+.mastfoot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  height: 40px;
+}
+
+#footer {
+    padding:.5em;
+}
+
+html,
+body {
+  height: 100%;
+  background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+body {
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+#resume {
+    text-align: center;
+    margin-top: 1em;
+
+}
+#classes {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-circles {
+    display:block;
+    height: 168px;
+    width: 168px;
+    /*background-color: #fea733;*/
+    background-color: #333;
+    opacity: 0.3;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: growUp 2s 1.5s; /* You can remove 1.5s if you don't want delay */
+    -moz-animation: growUp 2s 1.5s;
+    -ms-animation: growUp 2s 1.5s;
+    -o-animation: growUp 2s 1.5s;
+    animation: growUp 2s 1.5s;
+}
+
+#pic {
+    height: 392px;
+    width: 392px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+.wrap {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#download {
+    text-align: center;
+}
+
+.cover-heading {
+    text-align: center;
+}
+
+#about {
+
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-family: ‘Courier New’, Courier, monospace;
+    background-color: #333;
+    float:left;
+    padding:1em;
+}
+
+.circle {
+  position: fixed;
+  /*background-color: #fea733;*/
+  background-color: white;
+  opacity: 0.9;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: growUp 2s;
+  -moz-animation: growUp 2s;
+  -ms-animation: growUp 2s;
+  -o-animation: growUp 2s;
+  animation: growUp 4s 6.0s;
+}
+
+@-webkit-keyframes growUp {
+  0%  { -webkit-transform: scale(0); }
+  100% { -webkit-transform: scale(1); }
+}
+
+@-moz-keyframes growUp {
+    0%  { -moz-transform: scale(0); }
+    100% { -moz-transform: scale(1); }
+}
+
+tr:hover {
+    background-color: steelblue;
+}
+
+.circle:hover
+{
+    box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+#linkedin {
+    vertical-align:middle;
+}
+
+.es {
+    border-style: solid;
+    border-color: steelblue;
+    border-width: medium;
+}
+
+#aboutMe {
+    margin-top: .5em;
+    clear:both;
+}
+
+.typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#am {
+    width:50%;
+    float:left;
+}
+
+.inside {
+    margin-bottom: 50px;
+    background-color: #333;
+}
